@@ -33,26 +33,28 @@ export const App = () => {
   );
 
   return (
-    <div style={{ width: '100vw', height: '100vh', fontFamily: 'system-ui, -apple-system, sans-serif' }}>
-      <div style={{ 
-        position: 'absolute', 
-        top: '10px', 
-        left: '10px', 
-        zIndex: 1000,
-        backgroundColor: 'rgba(255, 255, 255, 0.9)',
-        padding: '10px',
-        borderRadius: '8px',
-        fontSize: '14px',
-        boxShadow: '0 2px 4px rgba(0,0,0,0.1)'
+    <div style={{ 
+        width: '95vw', height: '95vh', fontFamily: 'system-ui, -apple-system, sans-serif' 
       }}>
-        <div><strong>React Flow Clone</strong></div>
-        <ul>
+      <div style={{ 
+        // position: 'absolute', 
+        // top: '10px', 
+        // left: '10px', 
+        // zIndex: 1000,
+        // backgroundColor: 'rgba(255, 255, 255, 0.9)',
+        // padding: '10px',
+        // borderRadius: '8px',
+        // fontSize: '14px',
+        // boxShadow: '0 2px 4px rgba(0,0,0,0.1)'
+      }}>
+        {/* <div><strong>React Flow Clone</strong></div> */}
+        {/* <ul>
           <li>Drag nodes to move them</li>
           <li>Drag from right handle to left handle to connect</li>
           <li>Mouse wheel to zoom</li>
           <li>Drag background to pan</li>
           <li>Mini-map shows overview</li>
-        </ul>
+        </ul> */}
       </div>
       <FluxNode
         nodes={nodes}
@@ -60,7 +62,7 @@ export const App = () => {
         onNodesChange={onNodesChange}
         onEdgesChange={onEdgesChange}
         onConnect={onConnect}
-        fitView
+        // fitView
       />
     </div>
   );
