@@ -551,4 +551,4 @@ const FluxNode: React.FC<{
     </div>
   );
 };
-export default FluxNode;
+export { FluxNode };
