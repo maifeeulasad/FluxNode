@@ -1,6 +1,6 @@
 {
   "name": "flux-node",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A flexible, type-safe, and interactive node-based editor library built with React, TypeScript, and modern design principles.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
