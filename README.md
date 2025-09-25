@@ -184,14 +184,26 @@ The example demonstrates:
 
 ```bash
 # Install dependencies
-npm install
+pnpm install
 
 # Build the library
-npm run build
+pnpm build
 
 # Watch mode for development
-npm run dev
+pnpm dev
+
+# Run the example application
+pnpm dev:example
+
+# Build the example (for static hosting)
+pnpm build:example
 ```
+
+The development setup includes:
+- **Library Development**: Use `pnpm dev` to watch for changes in the `src/` directory
+- **Example Application**: Use `pnpm dev:example` to run the interactive example at `http://localhost:3000`
+- **Hot Reloading**: Both library and example support hot reloading for efficient development
+- **Separate Builds**: The example is built separately and excluded from the published package
 
 ## License
 
