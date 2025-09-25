@@ -1,5 +1,5 @@
 import React, { useCallback, useState } from 'react';
-import FluxNode, { NodeChange, Node, Edge, applyNodeChanges, EdgeChange, Connection, addEdge, applyEdgeChanges } from 'flux-node';
+import { FluxNode, NodeChange, Node, Edge, applyNodeChanges, EdgeChange, Connection, addEdge, applyEdgeChanges } from 'flux-node';
 
 
 // Main App Component
