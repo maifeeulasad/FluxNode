@@ -163,6 +163,23 @@ Creates a new edge from a connection and adds it to the edges array. Prevents du
 
 The component uses inline styles for maximum compatibility. You can customize the appearance by modifying the component or extending it with your own styling system.
 
+## Example
+
+Check out the complete example in the [`example/App.tsx`](example/App.tsx) file. This shows a full implementation with:
+
+- 3 pre-positioned nodes
+- 1 initial connection
+- Interactive controls overlay
+- Full-screen layout
+- All FluxNode features enabled
+
+The example demonstrates:
+- Node dragging and positioning
+- Edge creation by connecting handles
+- Pan and zoom functionality
+- Minimap navigation
+- State management with React hooks
+
 ## Development
 
 ```bash
