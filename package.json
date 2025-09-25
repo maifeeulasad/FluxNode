@@ -6,18 +6,24 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "dev": "tsc --watch"
+    "dev": "tsc --watch",
+    "dev:example": "vite example --config vite.example.config.ts",
+    "build:example": "vite build example --config vite.example.config.ts --outDir example-dist",
+    "preview:example": "vite preview --outDir example-dist"
   },
   "peerDependencies": {
     "react": ">=16.8.0",
     "react-dom": ">=16.8.0"
   },
   "devDependencies": {
+    "@types/node": "^20.0.0",
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
+    "@vitejs/plugin-react": "^4.0.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
-    "typescript": "^4.9.0"
+    "typescript": "^4.9.0",
+    "vite": "^4.0.0"
   },
   "files": [
     "dist"
